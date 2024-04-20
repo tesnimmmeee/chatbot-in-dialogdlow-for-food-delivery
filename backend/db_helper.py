@@ -11,7 +11,7 @@ cnx = mysql.connector.connect(
 )
 
 # Function to call the MySQL stored procedure and insert an order item
-def insert_order_item(food_item, quantity, order_id):-
+def insert_order_item(food_item, quantity, order_id):
     try:
         cursor = cnx.cursor()
 
